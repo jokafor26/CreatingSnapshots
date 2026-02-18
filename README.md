@@ -10,18 +10,13 @@ Simple process to follow and create and could see what volumes were created.
  
 ![Image](https://github.com/user-attachments/assets/d1833284-c9d4-4710-983c-26cd93aa8ee7)
 
-
 I’m going to add the users into the sudo file with no password using the sudo visudo command. Then I’m going to add the users under ec2-user which was the first accounted created when I first created the E2 instance.
  
 ![Image](https://github.com/user-attachments/assets/301cfc49-11f3-4e17-9c31-9a9713c51965)
 
-
-
-
 I’m going to make cronjab to shut down the instance every day at 12pm. I would enter us the root user so I would su – into the root user then use the commands to enter the crontab and set the parameters of what I want to accomplish.    
 
 ![Image](https://github.com/user-attachments/assets/e2f700db-2124-4855-aadb-8de2433a56bb)
-
 
 This would shutdown the instances as requested. 
 
